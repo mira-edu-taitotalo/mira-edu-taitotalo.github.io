@@ -16,7 +16,7 @@ body {
 h1 {
   font-size: 12vh;
   line-height: 0;
-  padding-left: 8vw;
+  padding-left: 4rem;
   margin: 0;
 }
 
@@ -41,10 +41,9 @@ header {
 .nav-item {
   display: inline;
   text-transform: uppercase;
-  padding-right: 40px;
+  padding-right: 4rem;
   letter-spacing: 2px;
   font-size: 14px;
-  font-weight: 500;
 }
 
 /*Links*/
@@ -69,8 +68,9 @@ main {
 
 .grid-home {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   column-gap: 12vw;
+  row-gap: 8vh;
   margin-top: 4rem;
 }
 
