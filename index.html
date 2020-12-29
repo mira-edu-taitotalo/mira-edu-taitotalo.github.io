@@ -25,18 +25,36 @@
     <main id="home">
       <h2>Welcome to</h2>
       <h1>my portfolio</h1>
-      <div class="grid-home">
-        <div id="bio-image" onclick='location.href = "about.html";'>
-          <img src="media/meitsie_360px_dt_sq.jpg" alt="Selfie"/>
-          <div id="text">About me</div>
+      <div class="container-home">
+        <div class="wrapper">
+          <div class="box-home">
+            <div id="headline-home">
+              About me
+            </div>
+            <div class="filler">
+              <a href="about.html">
+                <img src="media/meitsie_360px_dt.jpg" id="bio-image">
+              </a>
+            </div>
+          </div>
         </div>
-        <div id="grid-box" onclick='location.href = "work.html";'>
-          <div id="text">My projects</div>
+        <div class="wrapper">
+          <div class="box-home">
+            <div id="headline-home">
+              My projects
+            </div>
+            <a href="about.html" class="filler" id="lodju1"></a>
+          </div>
         </div>
-        <div id="grid-box" onclick='location.href = "contact.html";'>
-          <div id="text">Contact me</div>
+        <div class="wrapper">
+          <div class="box-home">
+            <div id="headline-home">
+              Contact me
+            </div>
+            <a href="contact.html" class="filler" id="lodju2"></a>
+          </div>
         </div>
-      </div>
+      </div>  
     </main>
 
     <footer>
