@@ -157,6 +157,13 @@ a:hover {
   padding: 15vh 14vw 0vh 14vh;
 }
 
+.box-about {
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+}
+
 #bio-image-about {
   height: 154px;
   width: 180px;
