@@ -22,14 +22,14 @@ main {
 /*Headlines & paragraphs*/
 
 h1 {
-  font-size: 12vh;
+  font-size: 4.5rem;
   line-height: 0;
   padding-left: 4rem;
   margin: 0;
 }
 
 h2 {
-  font-size: 6vh;
+  font-size: 2.4rem;
   font-weight: 100;
   line-height: 2;
   margin: 0;
@@ -90,7 +90,7 @@ a:hover {
   grid-template-columns: repeat(3, 200px);
   column-gap: 5rem;
   row-gap: 3rem;
-  padding: 15vh 14vw 0vh 14vh;
+  padding: 15vh 4rem 0vh 4rem;
 }
 
 .box-home {
@@ -154,7 +154,7 @@ a:hover {
   grid-template-columns: 200px 500px;
   column-gap: 5rem;
   row-gap: 3rem;
-  padding: 15vh 14vw 0vh 14vh;
+  padding: 15vh 4rem 0vh 4rem;
 }
 
 .box-about {
@@ -203,7 +203,7 @@ a:hover {
   grid-template-rows: repeat(2, auto);
   column-gap: 5rem;
   row-gap: 3rem;
-  padding: 15vh 14vw 7vh 14vh;
+  padding: 15vh 4rem 0vh 4rem;
 }
 
 .box-work {
