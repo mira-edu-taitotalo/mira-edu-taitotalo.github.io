@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F5DF4D;
+  background-color: #f5d34d;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -73,7 +73,7 @@ header {
 }
 
 .nav-item.current {
-  color:#F5DF4D;
+  color:#f5d34d;
 }
 
 /*Links*/
@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-  color:#F5DF4D;
+  color:#f5d34d;
 }
 
 /*Buttons*/
@@ -98,7 +98,7 @@ a:hover {
 }
 
 .button:hover {
-  color: #F5DF4D;
+  color: #f5d34d;
 }
 
 .btn-light {
@@ -120,7 +120,7 @@ a:hover {
   }
   
   .button-about:hover {
-    color: #F5DF4D;
+    color: #f5d34d;
   }
   
   i {
@@ -165,7 +165,7 @@ a:hover {
   grid-column: 1/3;
   grid-row: span 5;
   align-content: center;
-  background-color: #F5DF4D;
+  background-color: #f5d34d;
 }
 
 #bio-image {
@@ -173,6 +173,7 @@ a:hover {
   height: 100%;
   object-fit: cover;
   object-position: 0% 45%;
+  object-position: center;
 }
 
 #projects {
@@ -210,7 +211,7 @@ a:hover {
   grid-column: 1/3;
   grid-row: span 5;
   align-content: center;
-  background-color: #F5DF4D;
+  background-color: #f5d34d;
 }
 .nested-bio {
   grid-column: span 2;
@@ -228,7 +229,7 @@ grid-column: 1/3;
 grid-row: span 5;
 align-content: start;
 padding: 12px;
-background-color: #F5DF4D;
+background-color: #f5d34d;
 font-size: 0.9rem;
 line-height: 1.4;
 }
@@ -245,7 +246,7 @@ grid-column: 1/3;
 grid-row: span 4;
 align-content: start;
 padding: 10px;
-background-color: #F5DF4D;
+background-color: #f5d34d;
 font-size: 0.8rem;
 line-height: 1.1;
 }
@@ -264,7 +265,7 @@ line-height: 1.1;
   grid-row: span 4;
   align-content: start;
   padding: 10px;
-  background-color: #F5DF4D;
+  background-color: #f5d34d;
   font-size: 0.8rem;
   line-height: 1.1;
 }
@@ -301,7 +302,7 @@ line-height: 1.1;
   grid-row: span 3;
   align-content: center;
   justify-content: center;
-  background-color: #F5DF4D;
+  background-color: #f5d34d;
 }
 
 /*nth-child selectors*/
