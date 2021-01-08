@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lomakeharjoitus</title>
+    <style>
+
+      /* Body */
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5df4d;
+      }
+
+      /* Form fields */
+      #name,
+      #password,
+      #email {
+        display: table;
+        border: none;
+        margin-top: 0.3rem;
+      }
+
+      fieldset {
+          width: 400px;
+          background-color: #fff5b3;
+          border-color: #7e7e7e;
+      }
+
+      legend {
+          color: #7e7e7e;
+          font-size: 1.2rem;
+          font-weight: bolder;
+      }
+
+      label {
+          color: #308350;
+      }
+
+      #name, #password, #email {
+          width: 300px;
+      }
+
+      #button {
+          background-color: #50ffe2;
+      }
+
+      #button2 {
+          background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Please fill out this form</legend>
+      <form id="form1" method="post" action="http://finnberg.net/post.php">
+        <p>
+          <label for="name">Name</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            onfocus="this.value=''"
+            value="Firstname Lastname"
+          />
+          <br />
+          <label for="passwd">Password</label>
+          <input id="password" type="password" name="salasana" value="" />
+          <br />
+          <label for="email">Email address</label>
+          <input id="email" type="email" name="e-mail" value="" />
+          <br />
+          <input id="button" type="submit" name="Submit" value="Submit" />
+          <input id="button2" type="reset" name="Submit2" value="Reset" />
+          <br />
+          <br />
+          <p>Where do you live?</p>
+          <input type="radio" id="city" name="City" value="helsinki" />
+          <label for="cityHel">Helsinki</label>
+          <br />
+          <input type="radio" id="city" name="City" value="espoo" />
+          <label for="cityEsp">Espoo</label>
+          <br />
+          <input type="radio" id="city" name="City" value="vantaa" />
+          <label for="cityVan">Vantaa</label>
+          <br />
+        </p>
+      </form>
+    </fieldset>
+  </body>
+</html>
