@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      /* Kuvat */
+      img {
+        max-width: 300px;
+      }
+
+      #img1 {
+        float: left;
+        border: orange dotted 1em;
+        margin: 1rem;
+      }
+
+      #img2 {
+        float: right;
+        border-top: brown solid 0.5em;
+        border-bottom: brown solid 0.5em;
+        margin: 1rem;
+      }
+
+      /* Listat */
+
+      ul {
+        list-style-type: circle;
+      }
+
+      dt {
+        color: red;
+      }
+
+      dd {
+        font-style: italic;
+      }
+
+      /* Taulukot */
+
+      table {
+        border: black solid 0.2rem;
+        width: 50vw;
+        font-size: 0.75rem;
+        margin: 2rem;
+        float: left;
+      }
+
+      th {
+        float: left;
+        padding-right: 2rem;
+        background-color: #cdfcff;
+      }
+
+      td {
+        padding: 1rem;
+      }
+
+      /* Linkit */
+
+      a:link,
+      a:visited,
+      a:hover {
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #d1d6fd;
+        color: #5250fd;
+        line-height: 2;
+      }
+
+      a:hover {
+        color: #568a22;
+        font-size: 125%;
+      }
+
+      a:active {
+        color: #9c6cca;
+        background-color: #cfbde0;
+      }
+
+      a:visited {
+        color: darkgray;
+      }
+
+      #luettelo {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Linkit-osio -->
+    <div id="linkit">
+      <h2>Linkit</h2>
+      <ul id="luettelo">
+        <li><a href="#kuvat">Kuvat</a></li>
+        <li><a href="#listat">Listat</a></li>
+        <li><a href="#taulukot">Taulukot</a></li>
+      </ul>
+    </div>
+    <br />
+    <br />
+
+    <!-- Kuvat-osio -->
+    <h2 id="kuvia">Kuvia</h2>
+    <img id="img1" src="media/pexels-negative-space-169573_sm.jpg" alt="Laptop" /><a
+      href=""
+    ></a>
+    <p id="kappale">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat totam,
+      amet excepturi eveniet alias quis vitae quia id quaerat, sed animi itaque
+      ullam qui illum consectetur? Ducimus deleniti reprehenderit dignissimos
+      incidunt dolores repellat, quae, rerum est nobis impedit officia animi ut
+      ipsam alias vero consequuntur cum enim? Quos est inventore mollitia?
+      Magnam fugit rerum explicabo quisquam non accusantium optio. Id?
+    </p>
+    <p id="kappale">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat totam,
+      amet excepturi eveniet alias quis vitae quia id quaerat, sed animi itaque
+      ullam qui illum consectetur? Ducimus deleniti reprehenderit dignissimos
+      incidunt dolores repellat, quae, rerum est nobis impedit officia animi ut
+      ipsam alias vero consequuntur cum enim? Quos est inventore mollitia?
+      Magnam fugit rerum explicabo quisquam non accusantium optio. Id?
+    </p>
+    <img id="img2" src="media/pexels-pixabay-268533_bw_sm.jpg" alt="Tree" /><a
+      href=""
+    ></a>
+    <p id="kappale">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat totam,
+      amet excepturi eveniet alias quis vitae quia id quaerat, sed animi itaque
+      ullam qui illum consectetur? Ducimus deleniti reprehenderit dignissimos
+      incidunt dolores repellat, quae, rerum est nobis impedit officia animi ut
+      ipsam alias vero consequuntur cum enim? Quos est inventore mollitia?
+      Magnam fugit rerum explicabo quisquam non accusantium optio. Id?
+    </p>
+    <br />
+    <br />
+
+    <!-- Listat-osio -->
+    <h2 id="listat">Listat</h2>
+    <ol>
+      <li>Ensimmäinen</li>
+      <li>Toinen</li>
+      <li>Kolmas</li>
+      <li>Neljäs</li>
+    </ol>
+    <ul>
+      <li>Ensimmäinen</li>
+      <li>Toinen</li>
+      <li>Kolmas</li>
+      <li>Neljäs</li>
+    </ul>
+    <dl>
+      <dt>Ensimmäinen</dt>
+      <dd>tämä on ensimmäinen</dd>
+      <dt>Toinen</dt>
+      <dd>tämä on toinen</dd>
+      <dt>Kolmas</dt>
+      <dd>tämä on kolmas</dd>
+      <dt>Neljäs</dt>
+      <dd>tämä on neljäs</dd>
+    </dl>
+    <br />
+    <br />
+
+    <!-- Taulukot-osio -->
+    <table id="taulukot">
+      <h2>Taulukot</h2>
+      <tr>
+        <th>Ensimmäinen sarake</th>
+        <th>Toinen sarake</th>
+        <th>Kolmas sarake</th>
+      </tr>
+      <tr>
+        <td>Toinen rivi</td>
+      </tr>
+      <tr>
+        <td>Kolmas rivi</td>
+      </tr>
+      <tr>
+        <td>Neljäs rivi</td>
+      </tr>
+      <tr>
+        <td>Viides rivi</td>
+      </tr>
+    </table>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum
+      quaerat, in voluptatum delectus eaque saepe suscipit accusantium ipsa
+      repellendus quia optio numquam eius tempora omnis impedit molestiae minus
+      excepturi necessitatibus! Quo libero quos saepe animi nobis suscipit,
+      officiis, quisquam illum architecto, aliquam vitae. Corporis optio
+      delectus voluptas, totam necessitatibus quam unde? Laudantium eligendi
+      harum recusandae perferendis voluptates, praesentium ab?
+    </p>
+  </body>
+</html>
